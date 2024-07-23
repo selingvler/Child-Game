@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test3</string>
+
+    <string name="gmail">Mail</string>
+    <string name="password">Şifre</string>
+    <string name="login">GİRİŞ YAP</string>
+    <string name="don_t_have_an_account_yet">Hesabınız yok mu?</string>
+    <string name="create_one">Oluşturun</string>
+    <string name="change_language">Dil Değiştir</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="gmail1">Gmail</string>
+    <string name="password1">Parola</string>
+    <string name="register">Kayıt Ol</string>
+
+
+    <string name="multiplication">Çarpma</string>
+    <string name="clock">Saat</string>
+    <string name="directions">Yönler</string>
+    <string name="spell">Yazım</string>
+    <string name="similar_pictures">Benzer Resimler</string>
+    <string name="digits_forward">Sayılar İleriye</string>
+    <string name="digits_backward">Sayılar Geriye </string>
+    <string name="logout">ÇIKIŞ YAP</string>
+    <string name="days_of_week">Haftanın Günleri</string>
+    <string name="follow_the_ball">Topu Takip Et</string>
+    <string name="months_of_year">Yılın Ayları</string>
+    <string name="seasons">Mevsimler</string>
+    <string name="click_to_learn">Öğren </string>
+    <string name="check_answer">Cevabı Kontrol Et</string>
+    <string name="enter_your_answer_here">Cevabınızı Buraya Girin</string>
+    <string name="textview">Metin Görünümü</string>
+
+    <string name="numbers_will_be_shown_here">Sayılar burada gösterilecek</string>
+    <string name="generate_digit">Rakam Üret</string>
+    <string name="answer">Cevap:</string>
+    <string name="enter_your_message_here">Mesajınızı buraya girin</string>
+    <string name="check_answer1">Cevabı kontrol et</string>
+    <string name="enter_your_message_here1">Mesajınızı buraya girin</string>
+    <string name="check_answer2">Cevabı kontrol et</string>
+    <string name="drop_here">BURAYA BIRAKIN</string>
+    <string name="textview2">TextView</string>
+    <string name="textview4">TextView</string>
+    <string name="textview5">TextView</string>
+    <string name="textview6">TextView</string>
+    <string name="textview7">TextView</string>
+    <string name="textview8">TextView</string>
+
+    <string name="drag_the_correct_answer">Doğru cevabı sürükleyin</string>
+    <string name="next">DEVAM</string>
+    <string name="correct_answer5">Doğru Cevap:</string>
+    <string name="random_say_gel">Rastgele sayı </string>
+        <string name="summit">Gönder</string>
+    <string name="enter_the_table_number">Sayı Girin </string>
+    <string name="enter_the_number">Sayı Girin</string>
+    <string name="submit">Gönder</string>
+    <string name="spring">İLKBAHAR</string>
+    <string name="summer">YAZ</string>
+    <string name="fall">SONBAHAR</string>
+    <string name="winter">KIŞ</string>
+    <string name="check">Kontrol et</string>
+    <string name="what_season_is_it">Hangi Mevsim?</string>
+    <string name="name">İsim</string>
+    <string name="play">Oyna</string>
+    <string name="learn">Öğren</string>
+    <string name="continue2">Devam et</string>
+    <string name="enter_the_word">Kelimeyi Girin</string>
+    <string name="click_to_the_sound_button">Duymak İçin Tıkla</string>
+    <string name="click">Tıkla</string>
+    <string name="numbers_will_be_shown_here4">Sayılar Burada Gösterilecek</string>
+    <string name="generate_digit7">Rakam Üret</string>
+    <string name="answer8">Cevap:</string>
+    <string name="continue4">Devam et</string>
+
+    <string name="enter_your_answer_here4">Cevabınızı buraya girin</string>
+    <string name="check_answer4">Cevabı Kontrol Et</string>
+    <string name="textview33">Metin Görünümü</string>
+    <string name="click_to_learn4">Öğrenmek için tıklayın</string>
+    <string name="categories">Kategoriler</string>
+    <string name="analog_clock">Analog Saat</string>
+    <string name="digital_clock">Dijital Saat</string>
+    <string name="see_another_example">Başka bir örnek gör</string>
+    <string name="put_your_answer_here">Cevabınızı buraya koyun:</string>
+    <string name="check22">Kontrol Et</string>
+    <string name="register4">Kaydol</string>
+    <string name="_00_00">00:00</string>
+    <string name="change">DEĞİŞTİR</string>
+    <string name="numbers_will_be_shown_here3">Sayılar burada gösterilecek.</string>
+    <string name="generate_digit4">Sayı Oluştur</string>
+    <string name="numbers_will_be_shown_here44">Sayılar burada gösterilecek.</string>
+    <string name="generate_digit44">Sayı Oluştur</string>
+    <string name="submit4">Gönder</string>
+    <string name="enter_the_word3">Kelimeyi girin:</string>
+
+    <string name="days_question">Haftanın %d. günü nedir?</string>
+    <string name="month_question">Yılın %d. ayı hangi aydır?</string>
+    <string name="correctMonths">DOĞRU!</string>
+    <string name="wrongMonths">"Yanlış. Cevap: "</string>
+    <string name="login3">Giriş Yap</string>
+    <string name="wrong_try_again">Yanlış. Tekrar dene.</string>
+    <string name="correct">DOĞRU!</string>
+    <string name="what_is_the_dth_day_of_the_week">Haftanın %d. günü nedir?</string>
+    <string name="true_str">DOĞRU</string>
+    <string name="false_try_again">Yanlış. Tekrar dene.</string>
+    <string name="go_ahead">devam et</string>
+    <string name="go_past">önünden geç</string>
+    <string name="stop">dur</string>
+    <string name="turn_left">sola dön</string>
+    <string name="turn_right">sağa dön</string>
+    <string name="go_straight_on">dümdüz git</string>
+    <string name="wrong_next_question_is_coming">Yanlış </string>
+    <string name="correct4">Doğru</string>
+
+
+</resources>

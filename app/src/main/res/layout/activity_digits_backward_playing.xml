@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc33"
+
+    tools:context=".DigitsBackwardPlaying">
+
+    <TextView
+        android:id="@+id/digits_box2"
+        android:layout_width="180dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="507dp"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:text="@string/numbers_will_be_shown_here3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/generateDigit2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/generateDigit2"
+        android:layout_width="133dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginBottom="494dp"
+        android:text="@string/generate_digit4"
+        android:background="@color/b3"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enterForward"
+        android:layout_width="235dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/enter_your_message_here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <Button
+        android:id="@+id/checkForward"
+        android:layout_width="163dp"
+        android:layout_height="58dp"
+        android:text="@string/check_answer1"
+        android:background="@color/b3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterForward"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <TextView
+        android:id="@+id/feedbackForward"
+        android:layout_width="134dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="177dp"
+        android:text=""
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkForward"
+        app:layout_constraintVertical_bias="0.328" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

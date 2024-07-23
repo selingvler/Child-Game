@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc34"
+    tools:context=".ClockLearning">
+
+
+    <com.example.test3.ClockView
+        android:id="@+id/clock_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true" />
+
+    <EditText
+        android:id="@+id/clockAnswer"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/clock_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="139dp"
+        android:hint="@string/put_your_answer_here" />
+
+    <Button
+        android:id="@+id/clockCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/b3"
+        android:layout_marginEnd="18dp"
+        android:textSize="25sp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/check22" />
+    <Button
+        android:id="@+id/switch_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_button"
+        android:text="TR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</RelativeLayout>

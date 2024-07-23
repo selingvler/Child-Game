@@ -1,0 +1,219 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc23"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".CategoriesActivity"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageButton
+                android:id="@+id/buttonout"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_button"
+                android:padding="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/backicon" />
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categories"
+            android:textSize="45sp"
+            android:fontFamily="@font/akayatelivigala"
+            android:textColor="@color/white"
+            android:textAllCaps="true"/>
+
+        <Button
+            android:id="@+id/clockbtn"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginBottom="30dp"
+            android:text="@string/analog_clock"
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala"
+            />
+        <Button
+            android:id="@+id/digclockbtn"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginBottom="30dp"
+            android:text="@string/digital_clock"
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala"
+            />
+        <Button
+            android:id="@+id/buttonseasons"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/seasons"
+            android:layout_gravity="fill_horizontal"
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintEnd_toEndOf="@+id/clockbtn"
+           />
+
+        <Button
+            android:id="@+id/buttonweek"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/akayatelivigala"
+            android:text="@string/days_of_week"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/buttonyear"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+
+            android:text="@string/months_of_year"
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala"
+       />
+
+        <Button
+            android:id="@+id/multbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplication"
+            android:background="@drawable/custom_button"
+            android:layout_marginBottom="30dp"
+
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala"
+            />
+
+
+
+        <Button
+            android:id="@+id/dirbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginBottom="30dp"
+
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala"
+
+            android:text="@string/directions"
+             />
+
+        <Button
+            android:id="@+id/spellbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spell"
+            android:layout_marginBottom="30dp"
+
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala"
+             />
+
+        <Button
+            android:id="@+id/buttonsimilar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/similar_pictures"
+            android:layout_marginBottom="30dp"
+
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala"
+       />
+
+        <Button
+            android:id="@+id/buttondigitsf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digits_forward"
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:layout_marginBottom="30dp"
+
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala" />
+
+        <Button
+            android:id="@+id/buttondigitsb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digits_backward"
+            android:layout_marginBottom="30dp"
+
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:fontFamily="@font/akayatelivigala"
+            />
+
+
+        <Button
+            android:id="@+id/buttonball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/akayatelivigala"
+            android:text="@string/follow_the_ball"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+             />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

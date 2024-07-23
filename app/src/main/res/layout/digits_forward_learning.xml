@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DigitsForwardLearning">
+
+    <TextView
+        android:id="@+id/digits_box"
+        android:layout_width="169dp"
+        android:layout_height="99dp"
+        android:text="@string/numbers_will_be_shown_here4"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <Button
+        android:id="@+id/generateDigit"
+        android:layout_width="148dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="530dp"
+        android:text="@string/generate_digit7"
+        android:background="@color/b3"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toEndOf="@+id/digits_box"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/answerBox"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:text="@string/answer8"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="clockbtn" type="id" />
+    <item name="multbtn" type="id" />
+    <item name="dirbtn" type="id" />
+    <item name="spellbtn" type="id" />
+    <item name="buttondigitsb" type="id" />
+    <item name="buttondigitsf" type="id" />
+    <item name="buttonsimilar" type="id" />
+    <item name="buttonyear" type="id" />
+    <item name="buttonweek" type="id" />
+    <item name="buttonout" type="id" />
+    <item name="buttonball" type="id" />
+</resources>
