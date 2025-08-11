@@ -35,3 +35,7 @@ It includes both **learning** and **playing** sections to make education interac
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/<your-repo>.git
+   ```
+2. Open in Android Studio.
+3. Connect to Firebase (add google-services.json).
+4. Run on emulator or physical device.
